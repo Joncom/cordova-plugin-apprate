@@ -1,9 +1,9 @@
 {
   "name": "cordova-plugin-apprate",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "repository": {
       "type": "git",
-      "url": "https://github.com/ohh2ahh/cordova-plugin-apprate"
+      "url": "https://github.com/speige/cordova-plugin-apprate"
   },
   "dependencies": {
     "cordova": "*",
