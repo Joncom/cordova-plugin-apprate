@@ -21,7 +21,7 @@ under the License.
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
         id="cordova-plugin-apprate"
-        version="1.1.9">
+        version="1.1.11">
     <name>AppRate</name>
     <description>This plugin provide the "rate this app" functionality into your Cordova/Phonegap application
     </description>
@@ -29,8 +29,8 @@ under the License.
     <keywords>cordova,phonegap,AppRate,App Rate,rate,iRate,rate in iTunes,write a review,rate us,rate my application</keywords>
     <license>Apache 2.0</license>
     <info>Cross-platform AppRate plugin for Cordova / PhoneGap</info>
-    <repo>https://github.com/pushandplay/cordova-plugin-apprate.git</repo>
-    <issue>https://github.com/pushandplay/cordova-plugin-apprate/issues</issue>
+    <repo>https://github.com/speige/cordova-plugin-apprate.git</repo>
+    <issue>https://github.com/speige/cordova-plugin-apprate/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
