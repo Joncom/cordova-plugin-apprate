@@ -2,7 +2,7 @@
 
 This plugin provide the rate this app functionality into your Cordova/Phonegap application<br>
 
-Issues list and features requests [here](https://github.com/pushandplay/cordova-plugin-apprate/issues?state=open)
+Issues list and features requests [here](https://github.com/speige/cordova-plugin-apprate/issues?state=open)
 
 [Donate with PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MS8RQAS2NVVQW&lc=RU&item_name=github%2ecom&item_number=cordova%2dplugin%2dapprate&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
@@ -18,7 +18,7 @@ Issues list and features requests [here](https://github.com/pushandplay/cordova-
 
 ### Read before writing review ###
 
-+ [FAQ](https://github.com/pushandplay/cordova-plugin-apprate/wiki)
++ [FAQ](https://github.com/speige/cordova-plugin-apprate/wiki)
 
 ## Supported platforms ##
 
@@ -35,15 +35,11 @@ Phonegap / Cordova 3.0.0 or later
 
 +	From github repository:
 
-		cordova plugins add https://github.com/pushandplay/cordova-plugin-apprate.git
+		cordova plugins add https://github.com/speige/cordova-plugin-apprate.git
 			
-+	From apache cordova plugins registry:
-
-		cordova plugins add org.pushandplay.cordova.apprate
-		
 +	From phonegap build add the following to your config.xml:
 
-		<gap:plugin name="org.pushandplay.cordova.apprate" />
+		<gap:plugin name="cordova-plugin-apprate" source="npm" />
 
 ## Customization and usage ##
 
