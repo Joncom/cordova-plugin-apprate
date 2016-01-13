@@ -200,7 +200,7 @@ AppRate = (function() {
       if (this.preferences.openStoreInApp) {
         exec(null, null, 'AppRate', 'launchAppStore', [this.preferences.storeAppURL.ios]);
       } else {
-        iOSVersion = navigator.userAgent.match(/OS\s+([\d\_]+)/i)[0].replace(/_/g, '.').replace('OS ', '').split('.');
+        iOSVersion = navigator.userAgent.match(/ios, ([.0-9]+), /)[1].split('.');
         iOSVersion = parseInt(iOSVersion[0]) + (parseInt(iOSVersion[1]) || 0) / 10;
         if ((7.1 > iOSVersion && iOSVersion >= 7.0)) {
           window.open(PREF_STORE_URL_FORMAT_IOS7 + this.preferences.storeAppURL.ios, '_system');
